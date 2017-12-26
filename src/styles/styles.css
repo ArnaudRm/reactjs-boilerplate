@@ -16,6 +16,11 @@ body {
       font-size: 1.5em; }
   .App .App-intro {
     font-size: large; }
+  .App #actions-container {
+    max-width: 200px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between; }
 
 @keyframes App-logo-spin {
   from {
